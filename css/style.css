@@ -1,83 +1,49 @@
-
-/* line 3 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\style.styl */
-
-/* line 1 : C:\Users\Darkhan\AppData\Local\Prepros\app-7.3.22\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Darkhan\AppData\Local\Prepros\app-7.3.22\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Darkhan\AppData\Local\Prepros\app-7.3.22\resources\app.asar\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 /* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* line 11 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-
-/* line 23 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 body {
   margin: 0;
 }
-
-/* line 31 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 main {
   display: block;
 }
-
-/* line 40 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
-/* line 53 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 hr {
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
 }
-
-/* line 64 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
-
-/* line 76 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 a {
   background-color: transparent;
 }
-
-/* line 85 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted; /* 2 */
 }
-
-/* line 95 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 b,
 strong {
   font-weight: bolder;
 }
-
-/* line 105 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
-
-/* line 116 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 small {
   font-size: 80%;
 }
-
-/* line 125 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 sub,
 sup {
   font-size: 75%;
@@ -85,23 +51,15 @@ sup {
   position: relative;
   vertical-align: baseline;
 }
-
-/* line 133 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 sub {
   bottom: -0.25em;
 }
-
-/* line 137 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 sup {
   top: -0.5em;
 }
-
-/* line 148 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 img {
   border-style: none;
 }
-
-/* line 160 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button,
 input,
 optgroup,
@@ -112,30 +70,22 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
-
-/* line 176 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button,
 input {
 /* 1 */
   overflow: visible;
 }
-
-/* line 186 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button,
 select {
 /* 1 */
   text-transform: none;
 }
-
-/* line 195 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
 }
-
-/* line 206 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -143,21 +93,15 @@ button::-moz-focus-inner,
   border-style: none;
   padding: 0;
 }
-
-/* line 218 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
-
-/* line 229 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
-
-/* line 240 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
@@ -166,75 +110,83 @@ legend {
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
 }
-
-/* line 253 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 progress {
   vertical-align: baseline;
 }
-
-/* line 261 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 textarea {
   overflow: auto;
 }
-
-/* line 270 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
-
-/* line 280 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-
-/* line 290 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
-
-/* line 299 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
-/* line 308 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
-
-/* line 320 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 details {
   display: block;
 }
-
-/* line 328 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 summary {
   display: list-item;
 }
-
-/* line 339 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 template {
   display: none;
 }
-
-/* line 347 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
 [hidden] {
   display: none;
 }
-
-/* line 349 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_normalize.styl */
-
-/* line 349 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_base.styl */
-
-/* line 1 : C:\Users\Darkhan\Desktop\Projects\Web\Frontend\Practise\Landing Page\spacex\stylus\_base.styl */
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+body {
+  background-color: #010001;
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+.header {
+  max-width: 1230px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list__item {
+  margin-right: 20px;
+}
+.list__item:last-child {
+  margin-right: 0;
+}
+.list__item-link {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
