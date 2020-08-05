@@ -1,14 +1,21 @@
 @import './_normalize'
+@import './_vidbg'
+// @import './_rellax'
 
 * 
 *:before 
 *:after
   box-sizing border-box
 
+a 
+  text-decoration none
+  color inherit
+
 body 
   background-color #010001
   padding-top 50px
   font-family 'Roboto', sans-serif;
+  color #fff
 
 .header
   max-width 1230px
@@ -20,7 +27,7 @@ body
   a
     text-decoration none
 
-.list 
+.list
   display flex
   align-items center
   justify-content space-between  
@@ -36,3 +43,79 @@ body
       font-size 12px
       font-weight 400
       display block
+      &--gray 
+        color #808080
+.hero
+
+  text-align center
+  padding-top 120px
+  &__title
+    margin 0
+    margin-bottom 26px
+    color #ffffff
+    font-size 64px
+    font-weight 400
+  &__description
+    color #ffffff
+    font-size 16px
+    font-weight 300
+    line-height 22.4px
+    text-transform lowercase
+    max-width 268px 
+    margin auto 
+    &:after 
+      content ''  
+      display block
+      width 1px
+      height 60px
+      transform rotate(180deg)
+      border 1px solid #ffffff
+      margin auto
+      margin-top 25px
+
+.video 
+  height 550px
+  max-width 1230px
+  width 90%
+  margin auto
+
+.features
+  position relative
+  max-width 1230px
+  width 90%
+  margin auto
+  padding 100px 0
+  &__title 
+    color #ffffff
+    font-size 24px
+    font-weight 700
+    line-height 33.6px
+    text-transform uppercase
+    margin-bottom 45px
+    &--margin
+      margin 0
+      margin-bottom 45px
+  &__description  
+      color #ffffff
+      font-size 16px
+      font-weight 400
+      line-height 28.75px
+      max-width 490px
+  &__table
+    padding-top 218px 
+    &-col 
+      width 300px
+      padding 7px 0
+      border 1px solid #000000
+      color #ffffff
+      font-size 18px
+      font-weight 400
+      line-height 32.34px
+      text-transform uppercase
+      &--gray
+        color #b2b0b2
+.rocket 
+  position absolute
+  top 0px
+  right 0
+  z-index 5
