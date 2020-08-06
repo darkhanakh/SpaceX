@@ -46,7 +46,6 @@ body
       &--gray 
         color #808080
 .hero
-
   text-align center
   padding-top 120px
   &__title
@@ -74,7 +73,7 @@ body
       margin-top 25px
 
 .video 
-  height 550px
+  height 630px
   max-width 1230px
   width 90%
   margin auto
@@ -116,6 +115,40 @@ body
         color #b2b0b2
 .rocket 
   position absolute
-  top 0px
+  top 100px
   right 0
   z-index 5
+  max-width 300px
+
+.footer 
+  padding 130px 0
+  display flex
+  flex-direction column
+  align-items center
+  &__button 
+    color #ffffff
+    font-size 18px
+    font-weight 400
+    border-radius 6px
+    border 2px solid #ffffff
+    text-align center
+    min-width 260px
+    padding 20px
+  &__text 
+    margin-top 0
+    color #808080
+    font-size 18px
+    font-weight 400
+    margin-bottom 30px
+    a 
+      &:hover 
+        color: #fff
+  &-nav 
+    margin-top 43px
+    margin-bottom 28px
+    .list__item-link
+      color #ffffff
+      font-size 18px
+      font-weight 400
+
+@import '_media'

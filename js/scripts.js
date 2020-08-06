@@ -7,3 +7,7 @@ const instance = new vidbg('.video', {
   // Attributes
 });
 const rellax = new Rellax('.rocket');
+
+if (document.body.clientWidth < 576) {
+  rellax.destroy();
+}
